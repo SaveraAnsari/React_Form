@@ -1,0 +1,49 @@
+.page-heading {
+  text-align: center;
+  color: #f9f7f7;
+  font-size: 36px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(242, 238, 238, 0.8); 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../images/bg.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+
+.custom-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #eaeaef;
+  background-size: cover;
+}
+
+.custom-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.custom-form input,
+.custom-form select,
+.custom-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.custom-form button {
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+}
